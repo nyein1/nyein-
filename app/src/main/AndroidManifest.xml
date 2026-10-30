@@ -6,6 +6,5 @@
         android:hasCode="false">
         <property android:name="com.google.wear.watchface.format.version" android:value="1" />
         <meta-data android:name="com.google.android.wearable.standalone" android:value="true" />
-        <meta-data android:name="com.google.wearable.watchface" android:resource="@xml/watch_face_info" />
     </application>
 </manifest>
