@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WatchFace width="450" height="450">
+  <Scene>
+    <PartDraw x="0" y="0" width="450" height="450">
+      <Ellipse x="8" y="8" width="434" height="434"><Fill color="#08090B" /></Ellipse>
+      <Ellipse x="20" y="20" width="410" height="410"><Stroke color="#E87524" thickness="5" /></Ellipse>
+      <Ellipse x="38" y="38" width="374" height="374"><Stroke color="#777777" thickness="3" /></Ellipse>
+      <Ellipse x="72" y="72" width="306" height="306"><Fill color="#151719" /><Stroke color="#E87524" thickness="3" /></Ellipse>
+      <Ellipse x="112" y="112" width="226" height="226"><Fill color="#090A0C" /><Stroke color="#777777" thickness="4" /></Ellipse>
+      <Ellipse x="145" y="145" width="160" height="160"><Stroke color="#E87524" thickness="5" /></Ellipse>
+      <Line x1="225" y1="28" x2="225" y2="52"><Stroke color="#F5F5F5" thickness="5" /></Line>
+      <Line x1="225" y1="398" x2="225" y2="422"><Stroke color="#F5F5F5" thickness="5" /></Line>
+      <Line x1="28" y1="225" x2="52" y2="225"><Stroke color="#F5F5F5" thickness="5" /></Line>
+      <Line x1="398" y1="225" x2="422" y2="225"><Stroke color="#F5F5F5" thickness="5" /></Line>
+      <Line x1="84" y1="84" x2="100" y2="100"><Stroke color="#E87524" thickness="3" /></Line>
+      <Line x1="350" y1="350" x2="366" y2="366"><Stroke color="#E87524" thickness="3" /></Line>
+      <Ellipse x="207" y="207" width="36" height="36"><Fill color="#E87524" /></Ellipse>
+      <Ellipse x="216" y="216" width="18" height="18"><Fill color="#E6E6E6" /></Ellipse>
+    </PartDraw>
+    <PartText x="80" y="82" width="290" height="44">
+      <Text align="CENTER"><Font family="SYNC_TO_DEVICE" size="28" weight="BOLD" color="#E87524"><![CDATA[SEVEN STYLE]]></Font></Text>
+    </PartText>
+    <PartText x="110" y="132" width="230" height="34">
+      <Text align="CENTER"><Font family="SYNC_TO_DEVICE" size="18" weight="BOLD" color="#FFFFFF"><![CDATA[INDUSTRIAL]]></Font></Text>
+    </PartText>
+    <DigitalClock x="75" y="185" width="300" height="90">
+      <TimeText x="0" y="0" width="300" height="90" format="hh:mm" hourFormat="SYNC_TO_DEVICE" align="CENTER">
+        <Font family="SYNC_TO_DEVICE" size="76" weight="BOLD" color="#FFFFFF" />
+      </TimeText>
+    </DigitalClock>
+    <PartText x="110" y="286" width="230" height="42">
+      <Text align="CENTER"><Font family="SYNC_TO_DEVICE" size="22" weight="BOLD" color="#E87524"><Template><![CDATA[%d  %s]]><Parameter expression="[DAY]"/><Parameter expression="[MONTH_S]"/></Template></Font></Text>
+    </PartText>
+    <PartText x="120" y="352" width="210" height="32">
+      <Text align="CENTER"><Font family="SYNC_TO_DEVICE" size="16" color="#CCCCCC"><![CDATA[AUTOMATIC • 100M]]></Font></Text>
+    </PartText>
+  </Scene>
+</WatchFace>
