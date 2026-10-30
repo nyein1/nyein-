@@ -10,3 +10,5 @@ Open **Actions → Build Wear OS Watch Face APK** and download the `industrial-o
 Install the APK on the Galaxy Watch Ultra2 (SM-L715F), then long-press the watch face and choose **Industrial Orange**. If direct phone installation is blocked, use Galaxy Wearable or ADB over Wi-Fi.
 
 Watch Face Format is required for Wear OS watch faces from January 2026.
+
+<!-- APK build trigger: 2026-10-31 -->
